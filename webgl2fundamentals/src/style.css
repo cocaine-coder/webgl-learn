@@ -58,6 +58,10 @@ button.active{
   background-color: #646cff;
 }
 
+code{
+  display: block;
+}
+
 .card {
   padding: 2em;
 }
