@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import './style.css'
 import typescriptLogo from './typescript.svg'
 import viteLogo from '/vite.svg'
@@ -22,3 +23,10 @@ document.querySelector<HTMLDivElement>('#app')!.innerHTML = `
 `
 
 setupCounter(document.querySelector<HTMLButtonElement>('#counter')!)
+=======
+import { createApp } from 'vue'
+import './style.css'
+import App from './App.vue'
+
+createApp(App).mount('#app')
+>>>>>>> d4a840bd7f4bf4fa23559c7406e022c3f70cbf60
